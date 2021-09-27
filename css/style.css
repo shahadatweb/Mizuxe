@@ -1,0 +1,82 @@
+
+body {
+	margin-top: 90px;
+}
+h2 {
+	color: #3292a6;
+}
+.navbar {
+	box-shadow: 2px 2px 5px #3292a6;
+	background: #fff;
+	opacity: 0.9; 
+}
+.nav-item {
+	font-size: 1.4rem;
+	padding-right: 20px;
+} 
+ 
+.navbar-light .navbar-nav .nav-link {
+    color: #252525;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #3292a6;
+}
+
+.nav-item:last-child {
+	padding-right: 0;
+}  
+#showcase {
+	position: relative;
+	background-image: url('../img/shahadat.jpg');
+	background-size: cover;
+	min-height: 600px;
+}
+.paimary-overlay {
+	background: rgba(50, 146, 156, 0.7);
+	min-height: 600px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#subscribe {
+	background: #252525;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #3292a6;
+    border-color: #007bff ;
+}
+.bg-primary {
+    background-color: #3292a6!important;
+}
+
+#authors img {
+	margin-top: -50px;
+}
+.card:hover {
+	background: #3292a6;
+	color: #fff;
+}
+.fab {
+	font-size: 30px;
+}
+.card:hover .fab{
+	color: #fff;
+}
+.p-4 i {
+	color: #3292a6;
+}
+.p-4:hover i {
+	transition: .5s;
+	transform: rotate(360deg);
+}
+
+
+@media(max-width: 576px){
+#showcase h1{
+		font-size: 4rem;
+	}
+}
